@@ -111,7 +111,7 @@
             [annotation updateSubtitleIfNeeded];
         }
         if (self.mapDelegate && [self.mapDelegate respondsToSelector:@selector(didSelectAnnotationView:)]) {
-            [self.mapDelegate didSelectAnnotationView:annotation];
+            [self.mapDelegate didSelectAnnotationView:view];
         }
     }
 }
